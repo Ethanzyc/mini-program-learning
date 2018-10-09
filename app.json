@@ -5,12 +5,13 @@
     "pages/scroll/scroll",
     "pages/merchant/merchant",
     "pages/multiply/multiply",
-    "pages/swiper/swiper"
+    "pages/swiper/swiper",
+    "pages/content/content"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#aaa",
-    "navigationBarTitleText": "第一个小程序",
+    "navigationBarTitleText": "学习小程序",
     "navigationBarTextStyle":"light"
   },
   "networkTimeout": {

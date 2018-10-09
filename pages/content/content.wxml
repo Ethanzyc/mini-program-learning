@@ -1,0 +1,7 @@
+<block wx:for='{{icons}}' wx:key='{{index}}'>
+  <icon type='{{item}}' size='30'></icon>
+</block>
+<view>这是一段不可选中的文本</view>
+<text selectable='{{true}}'>这是一段可以选中的文本</text>
+<progress percent='20' show-info='{{true}}' active='{{true}}'></progress>
+<rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
