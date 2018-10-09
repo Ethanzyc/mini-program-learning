@@ -1,0 +1,26 @@
+<view>
+  <swiper 
+    indicator-dots='{{true}}' 
+    indicator-color='#ae5255' 
+    indicator-active-color='yellow'
+    autoplay='{{autoPlay}}'
+    current='0'
+    interval='{{intervalTime}}'
+    duration='300'
+    circular='{{true}}'
+    vertical='{{false}}'
+    previous-margin='50rpx'
+    next-margin='50rpx'
+    display-multiple-items='1'
+    bindchange='swiperd'>
+    <swiper-item wx:for='{{imgUrls}}' wx:key='{{index}}'>
+      <image style='width: 650rpx' src='{{item}}'></image>
+    </swiper-item>
+  </swiper>
+  <text class='center-text' space='emsp'>滑动控制动画时间</text>
+  <slider show-value='{{true}}' min='100' max='5000' step='10' bindchange='changeInterval'></slider>
+  <view class='auto-play'>
+    <text class='inline-text' space='emsp'>是否自动滑动:</text>
+    <switch bindchange='changeAutoPlay'></switch>
+  </view>
+</view>

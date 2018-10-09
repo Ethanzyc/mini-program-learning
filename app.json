@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/scroll/scroll",
     "pages/merchant/merchant",
-    "pages/multiply/multiply"
+    "pages/multiply/multiply",
+    "pages/swiper/swiper"
   ],
   "window":{
     "backgroundTextStyle":"light",
