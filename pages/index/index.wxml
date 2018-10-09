@@ -13,6 +13,7 @@
   <button bind:tap="toDes" data-des="/pages/multiply/multiply">乘法表</button>
   <button bind:tap="toDes" data-des="/pages/scroll/scroll">scroll</button>
   <button bind:tap="toDes" data-des="/pages/swiper/swiper">swiper</button>
-  <button bind:tap="toDes" data-des="/pages/content/content">scroll</button>
+  <button bind:tap="toDes" data-des="/pages/content/content">content</button>
+  <button bind:tap="toDes" data-des="/pages/form/form">form</button>
 </view>
 <template name="templateTest">测试一下模板{{a}}{{b}}</template>

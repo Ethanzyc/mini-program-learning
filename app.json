@@ -6,7 +6,8 @@
     "pages/merchant/merchant",
     "pages/multiply/multiply",
     "pages/swiper/swiper",
-    "pages/content/content"
+    "pages/content/content",
+    "pages/form/form"
   ],
   "window":{
     "backgroundTextStyle":"light",

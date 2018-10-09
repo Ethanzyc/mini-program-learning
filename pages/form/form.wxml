@@ -1,0 +1,9 @@
+<!--pages/form/form.wxml-->
+<button size='mini' type='warn' plain='{{true}}' disabled='{{false}}' loading='{{false}}' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo='bindgetuserinfo'>按钮</button>
+<button open-type="contact">进入客服会话</button>
+<form bindsubmit='submitInfo' bindreset='resetInfo'>
+  <input type='text' placeholder='请在此处输入内容' name='inputInfo' style='border:1px solid red' focus='{{true}}' adjust-position='{{true}}'></input>
+  <slider show-value='{{true}}' min='100' max='5000' step='10' name='sliderInfo'></slider>
+  <button type='primary' form-type='submit'>提交</button>
+  <button type='warn' form-type='reset'>重置</button>
+</form>
