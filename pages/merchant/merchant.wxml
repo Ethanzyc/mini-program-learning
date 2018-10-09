@@ -1,0 +1,36 @@
+<view>
+  <view class='merchant-base-info'>
+    <view class='merchant-logo'>
+      <image src='http://resfco.raiyee.cn/fco-images/prod/merchant_log/300000.jpg'></image>
+    </view>
+    <view class="merchant-title">
+      <view class="merchant-name">{{merchantName}}</view>
+      <view class="merchant-category">{{businessCategory}}</view>
+    </view>
+  </view>
+  <view class="merchant-desc">{{introduce}}</view>
+  <scroll-view scroll-x class="merchant-img-scroll">
+    <image wx:for="{{merchantImages}}" wx:key="{{index}}" src="{{item}}" />
+  </scroll-view>
+  <view class="merchant-contact">
+    <text class="merchant-service">客服：</text>
+    <text class="merchant-phone">{{servicePhone}}</text>
+  </view>
+  <view class="merchant-shop">
+    <view class="shop-title">附近门店</view>
+    <view class="shop-detail">
+      <view class="shop-name">{{shops[0].shopName}}:</view>
+      <view class="shop-address">{{shops[0].address}}</view>
+    </view>
+  </view>
+  <view class="merchant-official">
+    <view class="merchant-official-name">{{officialName}}</view>
+    <view class="merchant-official-qr-code">
+      <image src="http://resfco.raiyee.cn/fco-images/prod/qr_code/307283631074758656.png" />
+    </view>
+    <view class="merchant-official-propagation">{{officialPropagation}}</view>
+  </view>
+  <button>
+    <navigator url='/pages/index/index'>去测试页</navigator>
+  </button>
+</view>

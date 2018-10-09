@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view hidden='{{true}}'>{{a}}</view>
+  <view hidden='{{true}}' wx:for="{{arr}}" wx:key="{{index}}">{{index}}:{{item}}</view>
+
+  <button bind:tap="change">显示隐藏</button>
+  <view wx:if="{{show}}">test</view>
+  <navigator url='/pages/merchant/merchant'>商户</navigator>
+  <view bind:tap='scan'>扫码</view>
+  <view wx:if="{{result}}">扫码结果为：{{result}}</view>
+  <button bind:tap='testModule'>测试模块化</button>
+  <template is="templateTest" data="{{b:33,...obj1}}"></template>
+  <button bind:tap="toDes" data-des="/pages/multiply/multiply">乘法表</button>
+  <button bind:tap="toDes" data-des="/pages/scroll/scroll">scroll</button>
+</view>
+<template name="templateTest">测试一下模板{{a}}{{b}}</template>

@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/scroll/scroll",
+    "pages/merchant/merchant",
+    "pages/multiply/multiply"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#aaa",
+    "navigationBarTitleText": "第一个小程序",
+    "navigationBarTextStyle":"light"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

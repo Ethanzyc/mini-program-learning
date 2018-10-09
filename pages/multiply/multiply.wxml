@@ -1,0 +1,8 @@
+<view style='font-size: 20rpx'>
+  <view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="i" wx:key="index">
+    <view style='display:inline-block;width:82rpx' wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j" wx:if="{{j<=i}}"  wx:key="index">
+      {{j}}*{{i}}={{i*j}}
+    </view>
+  </view>
+  <button bind:tap="back">返回</button>
+</view>

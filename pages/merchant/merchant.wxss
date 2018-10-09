@@ -1,0 +1,94 @@
+.merchant-base-info {
+  display: flex;
+  height: 150rpx;
+}
+.merchant-logo image {
+  width: 120rpx;
+  height: 120rpx;
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  background: #aaaaaa;
+  border-radius: 60rpx;
+  border: #aaaaaa;
+}
+.merchant-title .merchant-name {
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-top: 35rpx;
+  margin-left: 20rpx;
+}
+.merchant-title .merchant-category {
+  font-size: 28rpx;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+.merchant-desc {
+  font-size: 28rpx;
+  margin: 20rpx 30rpx;
+}
+.merchant-img-scroll {
+  width: 690rpx;
+  margin: 20rpx 30rpx;
+  white-space:nowrap;
+}
+.merchant-img-scroll image {
+  height: 210rpx;
+  width: 280rpx;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+}
+.merchant-contact {
+  height: 30rpx;
+  font-size: 28rpx;
+  line-height: 30rpx;
+  padding: 20rpx 0;
+  margin: 0 30rpx;
+  border-top: 2rpx solid #f0f0f0;
+}
+.merchant-service {
+  font-weight: bold;
+}
+.merchant-shop {
+  margin: 0 30rpx;
+  font-size: 24rpx;
+  padding: 20rpx 0;
+  border-top: 2rpx solid #f0f0f0;
+}
+.shop-title {
+  font-size: 28rpx;
+  font-weight: bold;
+}
+.shop-detail {
+  margin-top: 16rpx;
+}
+.shop-name {
+  font-weight: bold;
+}
+.merchant-official {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 30rpx;
+  padding: 20rpx 0;
+  border-top: 2rpx solid #f0f0f0;
+}
+.merchant-official-name {
+  text-align: center;
+  margin-bottom: 20rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+.merchant-official-qr-code {
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+.merchant-official-propagation {
+  text-align: center;
+  margin-bottom: 20rpx;
+  font-size: 24rpx;
+  color: #808080;
+}
+.merchant-official-qr-code image {
+  width: 240rpx;
+  height: 240rpx;
+}

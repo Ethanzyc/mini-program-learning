@@ -1,0 +1,7 @@
+<view>
+  <scroll-view scroll-x scroll-into-view="{{arr[des]}}" class='frame'>
+    <view wx:for="{{arr}}" id='{{item}}' wx:key='{{index}}'>{{item}}</view>
+  </scroll-view>
+  <button bind:tap="next">跳转到下一页</button>
+  <button bind:tap="jump" wx:for="{{arr}}" data-index="{{index}}" wx:key='{{index}}'>跳转到{{item}}</button>
+</view>
