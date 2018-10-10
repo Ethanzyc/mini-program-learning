@@ -16,8 +16,8 @@ Page({
   },
   onLoad: function () {
     wx.request({
-      // url: 'http://fco.raiyee.com/fco-customer-api/merchant/i2nit/305610498956070912',
-      url: 'http://localhost:8081',
+      url: 'http://fco.raiyee.com/fco-customer-api/merchant/init/305610498956070912',
+      // url: 'http://localhost:8081',
       dataType: 'json',
       success(res) {
         console.log(res);

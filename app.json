@@ -8,7 +8,9 @@
     "pages/swiper/swiper",
     "pages/content/content",
     "pages/form/form",
-    "pages/interaction/interaction"
+    "pages/interaction/interaction",
+    "pages/request/request",
+    "pages/media/media"
   ],
   "window":{
     "backgroundTextStyle":"light",

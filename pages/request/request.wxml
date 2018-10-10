@@ -1,0 +1,2 @@
+<!--pages/request/request.wxml-->
+<button bindtap='getMovies'>获取豆瓣电影</button>

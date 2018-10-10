@@ -36,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 7,
+			"current": 9,
 			"list": [
 				{
 					"id": -1,
@@ -83,7 +83,19 @@
 				{
 					"id": -1,
 					"name": "interaction",
-					"pathName": "pages/interaction/interaction"
+					"pathName": "pages/interaction/interaction",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "request",
+					"pathName": "pages/request/request",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "media",
+					"pathName": "pages/media/media"
 				}
 			]
 		}
