@@ -30,7 +30,5 @@
     </view>
     <view class="merchant-official-propagation">{{officialPropagation}}</view>
   </view>
-  <button>
-    <navigator url='/pages/index/index'>去测试页</navigator>
-  </button>
+  <return-to-index></return-to-index>
 </view>

@@ -1,1 +1,5 @@
-{}
+{
+  "usingComponents": {
+    "return-to-index": "../return/return"
+  }
+}

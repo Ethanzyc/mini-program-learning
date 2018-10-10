@@ -36,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 4,
+			"current": 7,
 			"list": [
 				{
 					"id": -1,
@@ -65,7 +65,25 @@
 				{
 					"id": -1,
 					"name": "form",
-					"pathName": "pages/form/form"
+					"pathName": "pages/form/form",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "return",
+					"pathName": "pages/return/return",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "scroll",
+					"pathName": "pages/scroll/scroll",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "interaction",
+					"pathName": "pages/interaction/interaction"
 				}
 			]
 		}

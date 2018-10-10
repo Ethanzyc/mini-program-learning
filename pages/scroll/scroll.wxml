@@ -4,4 +4,5 @@
   </scroll-view>
   <button bind:tap="next">跳转到下一页</button>
   <button bind:tap="jump" wx:for="{{arr}}" data-index="{{index}}" wx:key='{{index}}'>跳转到{{item}}</button>
+  <return-to-index></return-to-index>
 </view>

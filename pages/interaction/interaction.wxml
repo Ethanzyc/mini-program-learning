@@ -1,0 +1,6 @@
+<!--pages/interaction/interaction.wxml-->
+<button bindtap='showActionSheet'>showActionSheet</button>
+<button bindtap='showModal'>showModal</button>
+<button bindtap='showToast'>showToast</button>
+<button bindtap='showLoading'>showLoading</button>
+

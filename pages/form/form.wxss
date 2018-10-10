@@ -29,5 +29,6 @@ textarea {
   border: 2rpx solid rgb(124, 192, 21);
   border-radius: 10rpx;
   padding: 10rpx;
+  width: 646rpx;
 }
 

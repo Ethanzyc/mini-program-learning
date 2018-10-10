@@ -40,5 +40,6 @@
     <radio>高圆圆</radio>
   </radio-group>
   <textarea></textarea>
+  <return-to-index></return-to-index>
 </view>
 

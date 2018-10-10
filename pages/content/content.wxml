@@ -5,3 +5,4 @@
 <text selectable='{{true}}'>这是一段可以选中的文本</text>
 <progress percent='20' show-info='{{true}}' active='{{true}}'></progress>
 <rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
+<return-to-index></return-to-index>

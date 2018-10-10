@@ -7,7 +7,8 @@
     "pages/multiply/multiply",
     "pages/swiper/swiper",
     "pages/content/content",
-    "pages/form/form"
+    "pages/form/form",
+    "pages/interaction/interaction"
   ],
   "window":{
     "backgroundTextStyle":"light",

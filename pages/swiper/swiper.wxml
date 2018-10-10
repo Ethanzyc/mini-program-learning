@@ -23,4 +23,5 @@
     <text class='inline-text' space='emsp'>是否自动滑动:</text>
     <switch checked='{{true}}' bindchange='changeAutoPlay'></switch>
   </view>
+  <return-to-index></return-to-index>
 </view>
