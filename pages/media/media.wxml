@@ -24,4 +24,4 @@
 <camera wx:if='{{showCamera}}' device-position="back" flash="off" binderror="error" style="width: 100%; height: 300px;margin-top: 50rpx;"></camera>
 <button type='primary' bindtap='takePhotos'>拍照</button>
 <image src='{{src}}'></image>
-
+<return-to-index></return-to-index>
