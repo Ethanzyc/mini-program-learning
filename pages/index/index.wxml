@@ -17,6 +17,7 @@
   <button type='primary' bind:tap="toDes" data-des="/pages/form/form">form</button>
   <button type='primary' bind:tap="toDes" data-des="/pages/media/media">media</button>
   <button type='primary' bind:tap="toDes" data-des="/pages/map/map">map</button>
+  <button type='primary' bind:tap="toDes" data-des="/pages/canvas/canvas">canvas</button>
 </view>
 <template name="templateTest">
   <text style='display:block;width:750rpx;text-align: center;'>测试一下模板{{a}}{{b}}</text>

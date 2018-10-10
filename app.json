@@ -11,7 +11,8 @@
     "pages/interaction/interaction",
     "pages/request/request",
     "pages/media/media",
-    "pages/map/map"
+    "pages/map/map",
+    "pages/canvas/canvas"
   ],
   "window":{
     "backgroundTextStyle":"light",
