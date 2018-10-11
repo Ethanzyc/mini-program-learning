@@ -15,7 +15,9 @@
     "pages/canvas/canvas",
     "pages/movies/movies",
     "pages/upload/upload",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/contact/contact",
+    "pages/socket/socket"
   ],
   "window":{
     "backgroundTextStyle":"light",

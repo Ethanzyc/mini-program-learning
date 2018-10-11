@@ -16,7 +16,7 @@ Page({
           temImg: res.tempFilePaths
         });
         wx.uploadFile({
-          url: 'https://1.ethan.applinzi.com/upload_handler.php',
+          url: 'https://ethan.applinzi.com/upload_handler.php',
           filePath: res.tempFilePaths[0],
           name: 'fileup',
           success: (result) => {

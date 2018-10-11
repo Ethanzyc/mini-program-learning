@@ -21,6 +21,8 @@
   <button type='primary' bind:tap="toDes" data-des="/pages/movies/movies">movies</button>
   <button type='primary' bind:tap="toDes" data-des="/pages/upload/upload">upload</button>
   <button type='primary' bind:tap="toDes" data-des="/pages/login/login">login</button>
+  <button type='primary' bind:tap="toDes" data-des="/pages/contact/contact">contact</button>
+  <button type='primary' bind:tap="toDes" data-des="/pages/socket/socket">socket</button>
 </view>
 <template name="templateTest">
   <text style='display:block;width:750rpx;text-align: center;'>测试一下模板{{a}}{{b}}</text>

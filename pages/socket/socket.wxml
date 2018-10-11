@@ -1,0 +1,3 @@
+<!--pages/socket/socket.wxml-->
+<button bindtap='connect'>连接</button>
+<button bindtap='sendMsg'>发送消息</button>

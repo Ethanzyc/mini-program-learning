@@ -1,0 +1,3 @@
+<!--pages/contact/contact.wxml-->
+<contact-button size='28'></contact-button>
+<button open-type='contact'>客服</button>

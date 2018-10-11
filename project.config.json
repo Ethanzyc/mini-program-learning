@@ -36,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 14,
+			"current": 16,
 			"list": [
 				{
 					"id": -1,
@@ -125,7 +125,19 @@
 				{
 					"id": -1,
 					"name": "login",
-					"pathName": "pages/login/login"
+					"pathName": "pages/login/login",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "客服",
+					"pathName": "pages/contact/contact",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "websocket",
+					"pathName": "pages/socket/socket"
 				}
 			]
 		}
