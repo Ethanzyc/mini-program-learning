@@ -12,7 +12,8 @@
     "pages/request/request",
     "pages/media/media",
     "pages/map/map",
-    "pages/canvas/canvas"
+    "pages/canvas/canvas",
+    "pages/movies/movies"
   ],
   "window":{
     "backgroundTextStyle":"light",

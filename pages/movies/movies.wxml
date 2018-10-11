@@ -1,0 +1,15 @@
+<!--pages/movies/movies.wxml-->
+<view class='header'>
+  <text>{{header}}</text>
+</view>
+<scroll-view scroll-y="{{true}}" class='movies'>
+  <view class='single' wx:for='{{movies}}' wx:key='{{index}}'>
+    <image mode='scaleToFill' src='{{item.images.small}}'></image>
+    <view class='info'>
+      <text class="title">{{item.title}}</text>
+      <text class="ori-title">{{item.original_title}}</text>
+      <text class="dir-name">{{item.directors[0].name}}</text>
+    </view>
+    <view class='rate'>{{item.rating.average}}</view>
+  </view>
+</scroll-view>

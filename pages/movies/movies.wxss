@@ -1,0 +1,54 @@
+/* pages/movies/movies.wxss */
+.header {
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2rpx solid #888;
+}
+.header text {
+  font-weight: bold;
+}
+.movies {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.single {
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+  padding: 20rpx;
+  height: 140rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.single image{
+  height: 140rpx;
+  width: 140rpx;
+}
+.info {
+  height: 140rpx;
+  width: 500rpx;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  margin-left: 20rpx;
+}
+.info .title {
+  font-weight: bold;
+  font-size: 36rpx;
+}
+.info .ori-title {
+  font-size: 24rpx;
+  color: #ccc;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+.info .dir-name {
+  font-size: 28rpx;
+  color: #999;
+}
+.rate {
+  font-size: 28rpx;
+  color: rgb(194, 3, 3);
+}
