@@ -1,50 +1,45 @@
-// pages/upload/upload.js
+// pages/login/login.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    temImg: ''
+
   },
-  uploadImg() {
-    wx.chooseImage({
-      count: 1,
-      success: (res) => {
-        console.log(res);
-        this.setData({
-          temImg: res.tempFilePaths
-        });
-        wx.uploadFile({
-          url: 'https://1.ethan.applinzi.com/upload_handler.php',
-          filePath: res.tempFilePaths[0],
-          name: 'fileup',
-          success: (result) => {
-            console.log(result);
-          },
-          fail: (e) => {
-            console.log(e);
-          }
-        })
-      },
-    })
-  },
-  downloadImg() {
+  loginBtn() {
     wx.showLoading({
-      title: '下载中...',
-    });
-    wx.downloadFile({
-      url: 'https://ws4.sinaimg.cn/large/006tNbRwgy1fv089k7kjdj31gy0pggnu.jpg',
+      title: '登录中...',
+    })
+    wx.login({
       success: (res) => {
         console.log(res);
-        wx.hideLoading();
-        this.setData({
-          temImg: [res.tempFilePath]
-        });
       },
       fail: (e) => {
-        console.log('失败',e);
+        console.log(e);
+      },
+      complete() {
         wx.hideLoading();
+      }
+    })
+  },
+  getSettingBtn() {
+    wx.getSetting({
+      success: res => {
+        console.log(res);
+        if (res.authSetting['scope.userInfo']) {
+          wx.getUserInfo({
+            success: res => {
+              console.log('userInfo', res);
+            },
+            fail: e => {
+              console.log('失败', e)
+            }
+          })
+        }
+      },
+      fail: e => {
+        console.log('失败',e);
       }
     })
   },
