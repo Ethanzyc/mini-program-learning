@@ -36,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 12,
+			"current": 13,
 			"list": [
 				{
 					"id": -1,
@@ -113,7 +113,13 @@
 				{
 					"id": -1,
 					"name": "豆瓣",
-					"pathName": "pages/movies/movies"
+					"pathName": "pages/movies/movies",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "upload",
+					"pathName": "pages/upload/upload"
 				}
 			]
 		}

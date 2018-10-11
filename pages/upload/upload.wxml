@@ -1,0 +1,6 @@
+<!--pages/upload/upload.wxml-->
+<button bindtap='uploadImg'>上传文件</button>
+<button bindtap='downloadImg'>下载文件</button>
+<view class='imageCon'>
+  <image wx:for='{{temImg}}' src='{{item}}'></image>
+</view>

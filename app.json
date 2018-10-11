@@ -13,7 +13,8 @@
     "pages/media/media",
     "pages/map/map",
     "pages/canvas/canvas",
-    "pages/movies/movies"
+    "pages/movies/movies",
+    "pages/upload/upload"
   ],
   "window":{
     "backgroundTextStyle":"light",
